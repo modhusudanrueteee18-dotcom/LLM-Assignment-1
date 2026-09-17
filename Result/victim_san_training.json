@@ -1,0 +1,13 @@
+{
+  "victim_type": "V-san",
+  "corpus": "data\\partC_corpus_sanitized.jsonl",
+  "corpus_rows": 8007,
+  "epochs": 4,
+  "lora_r": 32,
+  "lora_alpha": 64,
+  "target_modules": "q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",
+  "final_train_loss": 0.54365,
+  "wall_s": 2467.4,
+  "baseline_ppl": 13.321,
+  "heldout_ppl": 12.838
+}

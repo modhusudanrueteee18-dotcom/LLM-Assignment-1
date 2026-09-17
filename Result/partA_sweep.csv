@@ -1,0 +1,7 @@
+run_id,method,target_modules,lora_r,lora_alpha,quant,trainable_params,total_params,trainable_pct,peak_gpu_mem_gb,train_wallclock_s,tokens_per_s,final_train_loss,val_loss,val_entity_f1,val_leak_rate
+A1,LoRA,"q_proj,v_proj",8,16,none,1089536,1544803840,0.07053,7.0501,3576.1,2863.5,0.028853,0.028853,0.683042,0.037719
+A2,LoRA,"q_proj,k_proj,v_proj,o_proj",8,16,none,2179072,1545893376,0.14096,7.0676,3750.5,2730.3,0.02297,0.02297,0.729584,0.037719
+A3,LoRA,"q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",8,16,none,9232384,1552946688,0.59451,7.1804,5195.6,1970.9,0.016738,0.016738,0.745214,0.038596
+A4,LoRA,"q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",32,16,none,36929536,1580643840,2.33636,7.6728,5236,1955.7,0.016637,0.016637,0.730935,0.044737
+A5,LoRA,"q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",32,64,none,36929536,1580643840,2.33636,7.6728,5233.4,1956.7,0.014713,0.014713,0.750369,0.036842
+A6,QLoRA,"q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",32,64,4bit,36929536,925545984,3.99003,6.8453,7529.3,1360,0.015511,0.015511,0.747425,0.037719

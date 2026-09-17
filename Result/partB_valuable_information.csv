@@ -1,0 +1,16 @@
+table,system,test_set,n,label,support,precision_exact,recall_exact,f1_exact,macro_f1_exact,f1_iou50,macro_f1_iou50,leak_rate,over_masking_rate,well_formed_rate
+Overall ID Test,A5 fine-tuned,data/partB_test.jsonl,2000,,,58.03,64.28,60.99,52.53,61.29,52.81,3.788,0.461,94.65
+Overall ID Test,Regex,data/partB_test.jsonl,2000,,,48.22,23.7,31.78,17.49,32.24,19.99,54.918,0.471,99.95
+Overall ID Test,Presidio,data/partB_test.jsonl,2000,,,18.45,18.35,18.4,9.73,19.53,10.34,47.288,2.009,99.75
+Overall ID Test,Qwen zero-shot,data/partB_test.jsonl,2000,,,6.62,8.8,7.56,1.6,8.23,1.75,55.536,24.564,79.95
+OOD Test,A5 fine-tuned,data/partB_ood_test.jsonl,1000,,,7.96,10.83,9.18,4.39,10.11,5.11,34.636,1.38,89.6
+A5 Per-Class,A5 fine-tuned,data/partB_test.jsonl,2000,TIME,945,82.32,67.51,74.19,,74.53,,,,
+A5 Per-Class,A5 fine-tuned,data/partB_test.jsonl,2000,USERNAME,760,85.33,82.63,83.96,,84.09,,,,
+A5 Per-Class,A5 fine-tuned,data/partB_test.jsonl,2000,SOCIALNUMBER,668,97.91,91.02,94.34,,94.34,,,,
+A5 Per-Class,A5 fine-tuned,data/partB_test.jsonl,2000,EMAIL,662,95.92,81.72,88.25,,88.74,,,,
+A5 Per-Class,A5 fine-tuned,data/partB_test.jsonl,2000,IDCARD,651,84.1,83.72,83.91,,84.53,,,,
+A5 Per-Class,A5 fine-tuned,data/partB_test.jsonl,2000,DRIVERLICENSE,643,81.62,45.57,58.48,,58.88,,,,
+A5 Per-Class,A5 fine-tuned,data/partB_test.jsonl,2000,LASTNAME1,623,0.0,0.0,0.0,,0.0,,,,
+A5 Per-Class,A5 fine-tuned,data/partB_test.jsonl,2000,BOD,553,94.3,86.8,90.4,,90.77,,,,
+A5 Per-Class,A5 fine-tuned,data/partB_test.jsonl,2000,PASSPORT,552,89.4,73.37,80.6,,81.0,,,,
+A5 Per-Class,A5 fine-tuned,data/partB_test.jsonl,2000,SEX,529,97.53,96.98,97.25,,97.63,,,,

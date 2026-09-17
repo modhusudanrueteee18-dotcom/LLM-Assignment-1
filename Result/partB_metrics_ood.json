@@ -1,0 +1,207 @@
+{
+  "system": "finetuned",
+  "adapter": "adapters/best_sanitizer",
+  "test_set": "data/partB_ood_test.jsonl",
+  "n": 1000,
+  "exact": {
+    "micro_p": 0.0796,
+    "micro_r": 0.1083,
+    "micro_f1": 0.0918,
+    "macro_f1": 0.0439,
+    "per_class": {
+      "FIRSTNAME": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 334
+      },
+      "LASTNAME": {
+        "p": 0.1887,
+        "r": 0.2419,
+        "f1": 0.212,
+        "support": 124
+      },
+      "DATE": {
+        "p": 0.217,
+        "r": 0.51,
+        "f1": 0.3045,
+        "support": 100
+      },
+      "EMAIL": {
+        "p": 0.55,
+        "r": 0.3402,
+        "f1": 0.4204,
+        "support": 97
+      },
+      "PREFIX": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 84
+      },
+      "AMOUNT": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 77
+      },
+      "JOBAREA": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 72
+      },
+      "PASSWORD": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 71
+      },
+      "URL": {
+        "p": 0.3636,
+        "r": 0.0563,
+        "f1": 0.0976,
+        "support": 71
+      },
+      "MIDDLENAME": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 70
+      }
+    }
+  },
+  "overlap_iou50": {
+    "micro_p": 0.0877,
+    "micro_r": 0.1193,
+    "micro_f1": 0.1011,
+    "macro_f1": 0.0511,
+    "per_class": {
+      "FIRSTNAME": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 334
+      },
+      "LASTNAME": {
+        "p": 0.1887,
+        "r": 0.2419,
+        "f1": 0.212,
+        "support": 124
+      },
+      "DATE": {
+        "p": 0.217,
+        "r": 0.51,
+        "f1": 0.3045,
+        "support": 100
+      },
+      "EMAIL": {
+        "p": 0.8333,
+        "r": 0.5155,
+        "f1": 0.6369,
+        "support": 97
+      },
+      "PREFIX": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 84
+      },
+      "AMOUNT": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 77
+      },
+      "JOBAREA": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 72
+      },
+      "PASSWORD": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 71
+      },
+      "URL": {
+        "p": 0.9091,
+        "r": 0.1408,
+        "f1": 0.2439,
+        "support": 71
+      },
+      "MIDDLENAME": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 70
+      }
+    }
+  },
+  "per_class": {
+    "FIRSTNAME": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 334
+    },
+    "LASTNAME": {
+      "p": 0.1887,
+      "r": 0.2419,
+      "f1": 0.212,
+      "support": 124
+    },
+    "DATE": {
+      "p": 0.217,
+      "r": 0.51,
+      "f1": 0.3045,
+      "support": 100
+    },
+    "EMAIL": {
+      "p": 0.55,
+      "r": 0.3402,
+      "f1": 0.4204,
+      "support": 97
+    },
+    "PREFIX": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 84
+    },
+    "AMOUNT": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 77
+    },
+    "JOBAREA": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 72
+    },
+    "PASSWORD": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 71
+    },
+    "URL": {
+      "p": 0.3636,
+      "r": 0.0563,
+      "f1": 0.0976,
+      "support": 71
+    },
+    "MIDDLENAME": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 70
+    }
+  },
+  "leak_rate": 0.346355,
+  "over_masking_rate": 0.013797,
+  "well_formed_rate": 0.896
+}

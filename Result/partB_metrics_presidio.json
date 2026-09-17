@@ -1,0 +1,207 @@
+{
+  "system": "presidio",
+  "adapter": "none",
+  "test_set": "data/partB_test.jsonl",
+  "n": 2000,
+  "exact": {
+    "micro_p": 0.1845,
+    "micro_r": 0.1835,
+    "micro_f1": 0.184,
+    "macro_f1": 0.0973,
+    "per_class": {
+      "TIME": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 945
+      },
+      "USERNAME": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 760
+      },
+      "SOCIALNUMBER": {
+        "p": 0.3558,
+        "r": 0.6961,
+        "f1": 0.4709,
+        "support": 668
+      },
+      "EMAIL": {
+        "p": 0.9437,
+        "r": 0.9879,
+        "f1": 0.9653,
+        "support": 662
+      },
+      "IDCARD": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 651
+      },
+      "DRIVERLICENSE": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 643
+      },
+      "LASTNAME1": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 623
+      },
+      "BOD": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 553
+      },
+      "PASSPORT": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 552
+      },
+      "SEX": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 529
+      }
+    }
+  },
+  "overlap_iou50": {
+    "micro_p": 0.1958,
+    "micro_r": 0.1948,
+    "micro_f1": 0.1953,
+    "macro_f1": 0.1034,
+    "per_class": {
+      "TIME": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 945
+      },
+      "USERNAME": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 760
+      },
+      "SOCIALNUMBER": {
+        "p": 0.3558,
+        "r": 0.6961,
+        "f1": 0.4709,
+        "support": 668
+      },
+      "EMAIL": {
+        "p": 0.9481,
+        "r": 0.9924,
+        "f1": 0.9697,
+        "support": 662
+      },
+      "IDCARD": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 651
+      },
+      "DRIVERLICENSE": {
+        "p": 0.6923,
+        "r": 0.014,
+        "f1": 0.0274,
+        "support": 643
+      },
+      "LASTNAME1": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 623
+      },
+      "BOD": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 553
+      },
+      "PASSPORT": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 552
+      },
+      "SEX": {
+        "p": 0.0,
+        "r": 0.0,
+        "f1": 0.0,
+        "support": 529
+      }
+    }
+  },
+  "per_class": {
+    "TIME": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 945
+    },
+    "USERNAME": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 760
+    },
+    "SOCIALNUMBER": {
+      "p": 0.3558,
+      "r": 0.6961,
+      "f1": 0.4709,
+      "support": 668
+    },
+    "EMAIL": {
+      "p": 0.9437,
+      "r": 0.9879,
+      "f1": 0.9653,
+      "support": 662
+    },
+    "IDCARD": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 651
+    },
+    "DRIVERLICENSE": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 643
+    },
+    "LASTNAME1": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 623
+    },
+    "BOD": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 553
+    },
+    "PASSPORT": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 552
+    },
+    "SEX": {
+      "p": 0.0,
+      "r": 0.0,
+      "f1": 0.0,
+      "support": 529
+    }
+  },
+  "leak_rate": 0.472885,
+  "over_masking_rate": 0.020088,
+  "well_formed_rate": 0.9975
+}
