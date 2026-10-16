@@ -1,4 +1,4 @@
-# requirements.txt — Assignment 1, ELL8299/COL8383/COL873
+# requirements.txt Assignment 1
 # Install: pip install -r requirements.txt
 # Python 3.10+, CUDA 11.8+
 
